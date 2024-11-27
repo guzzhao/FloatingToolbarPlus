@@ -1,2 +1,3 @@
-# FloatingToolbarPlus
-idea-plugin
+
+
+Advanced Settings ->  Hide floating toolbar for code editing

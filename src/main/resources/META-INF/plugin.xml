@@ -1,0 +1,26 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+
+  <id>com.guzz.ide.FloatingToolbarPlus</id>
+
+  <name>FloatingToolbarPlus</name>
+
+  <vendor email="guzzhao@live.com" url="https://github.com/guzzhao/FloatingToolbarPlus">FloatingToolbarPlus</vendor>
+
+  <!--  <description></description>-->
+
+  <depends>com.intellij.modules.platform</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+
+
+
+  </extensions>
+  <actions>
+
+    <action id="BarMain" class="com.guzz.ide.floatingtoolbarplus.BarMain" text="BarMain">
+      <add-to-group group-id="Floating.CodeToolbar" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>
