@@ -1,0 +1,2 @@
+# FloatingToolbarPlus
+idea-plugin
