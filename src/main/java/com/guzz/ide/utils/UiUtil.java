@@ -38,10 +38,10 @@ public class UiUtil {
 
             // 获取选中的文本
             String selectedText = selectionModel.getSelectedText();
-
             if (StrUtil.isBlank(selectedText) || !StrUtil.isValidVariableName(selectedText)) {
                 addPopup(project, "this is not variable");
             } else {
+
                 String newText = switch (name) {
                     case CamelCase -> StrUtil.toCamelCase(StrUtil.cutVariateToArray(selectedText));
                     case PascalCase -> StrUtil.toPascalCase(StrUtil.cutVariateToArray(selectedText));
@@ -55,7 +55,16 @@ public class UiUtil {
                 WriteCommandAction.runWriteCommandAction(project, () -> {
                     int start = selectionModel.getSelectionStart();
                     int end = selectionModel.getSelectionEnd();
-                    editor.getDocument().replaceString(start, end, newText);
+                    String prefix ="";
+                    String suffix ="";
+                    if(editor.getDocument().getText().charAt(start-1)!= ' '){
+                        prefix = " ";
+                    }
+                    if(editor.getDocument().getText().charAt(end)!= ' '){
+                        suffix = " ";
+                    }
+
+                    editor.getDocument().replaceString(start, end, prefix+ newText+ suffix);
                 });
 
             }

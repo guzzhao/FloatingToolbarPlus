@@ -13,4 +13,9 @@ public class SnakeCaseAction extends AnAction {
         UiUtil.actionPerformedNameStyle(e, NameSystem.SnakeCase);
 
     }
+
+    @Override
+    public void update(@NotNull AnActionEvent e) {
+        e.getPresentation().setText("SnakeCase(aa_bb)");
+    }
 }
