@@ -7,8 +7,16 @@
 
     <vendor email="guzzhao@live.com" url="https://github.com/guzzhao/FloatingToolbarPlus">FloatingToolbarPlus</vendor>
 
-    <!--  <description></description>-->
-
+    <description>
+        change the variable :
+        CamelCase
+        PascalCase
+        SnakeCase
+        SnakePascalCase
+        SnakeUpperCase
+        UpperCase
+        LowerCase
+    </description>
     <depends>com.intellij.modules.platform</depends>
 
 
