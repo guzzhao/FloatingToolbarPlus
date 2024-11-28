@@ -22,7 +22,13 @@
                text="Tools"
                popup="true">
             <add-to-group group-id="Floating.CodeToolbar" anchor="last"/>
-            <action id="BarMain"  class="com.guzz.ide.floatingtoolbarplus.BarMain" text="BarMain"/>
+            <action id="CamelCaseAction"  class="com.guzz.ide.actions.name.CamelCaseAction" text="CamelCase(aaBb)" description="CamelCase"/>
+            <action id="PascalCaseAction"  class="com.guzz.ide.actions.name.PascalCaseAction" text="PascalCase(AaBb)" description="PascalCase"/>
+            <action id="SnakeCaseAction"  class="com.guzz.ide.actions.name.SnakeCaseAction" text="SnakeCase(aa_bb)" description="SnakeCase"/>
+            <action id="SnakePascalCaseAction"  class="com.guzz.ide.actions.name.SnakePascalCaseAction" text="SnakePascalCase(Aa_Bb)" description="SnakePascalCase"/>
+            <action id="SnakeUpperCaseAction"  class="com.guzz.ide.actions.name.SnakeUpperCaseAction" text="SnakeUpperCase(AA_BB)" description="SnakeUpperCase" />
+            <action id="UpperCaseAction"  class="com.guzz.ide.actions.name.UpperCaseAction" text="UpperCase(AABB)" description="UpperCase" />
+            <action id="LowerCaseAction"  class="com.guzz.ide.actions.name.LowerCaseAction" text="LowerCase(aabb)" description="LowerCase" />
         </group>
     </actions>
 
