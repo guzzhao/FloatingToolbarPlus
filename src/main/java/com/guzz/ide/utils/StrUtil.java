@@ -75,13 +75,9 @@ public class StrUtil {
 
 
     public static void main(String[] args) {
-        List<String> words = cutVariateToArray("camelCaseBaaa");
 
-        System.out.println(toCamelCase(words));
-        System.out.println(toPascalCase(words));
-        System.out.println(toSnakeCase(words));
-        System.out.println(toSnakePascalCase(words));
-        System.out.println(toSnakeUpperCase(words));
+        String fist_name = "";
+
 
     }
 

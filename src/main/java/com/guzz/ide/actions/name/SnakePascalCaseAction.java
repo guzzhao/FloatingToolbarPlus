@@ -4,6 +4,7 @@ import com.guzz.ide.constant.NameSystem;
 import com.guzz.ide.utils.UiUtil;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
+import com.intellij.openapi.actionSystem.Presentation;
 import org.jetbrains.annotations.NotNull;
 
 public class SnakePascalCaseAction extends AnAction {
@@ -13,4 +14,9 @@ public class SnakePascalCaseAction extends AnAction {
         UiUtil.actionPerformedNameStyle(e, NameSystem.SnakePascalCase);
 
     }
+
+
+
+
+
 }
