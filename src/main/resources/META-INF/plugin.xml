@@ -5,11 +5,11 @@
 
     <name>FloatingToolbarPlus</name>
 
-    <vendor email="guzzhao@live.com" url="https://github.com/guzzhao/FloatingToolbarPlus">FloatingToolbarPlus</vendor>
+    <vendor email="guzzhao@live.com" url="https://github.com/guzzhao/FloatingToolbarPlus">guzzhao</vendor>
 
     <description><![CDATA[
 
-        一个用于拓展floating toolbar的插件，支持变量重命名，支持变量名格式：
+       一个用于拓展floating toolbar的插件，支持变量重命名，支持变量名格式：
        <ul>
        <li>CamelCase </li>
        <li>PascalCase </li>
@@ -20,7 +20,7 @@
        <li>LowerCase </li>
        <li>  // TODO</li>
        </ul>
-        -------------------
+        ------------------- <br />
 
         A toolbar for expanding floating toolbar, supporting variable renaming, change the variable :
        <ul>
