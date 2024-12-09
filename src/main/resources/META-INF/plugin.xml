@@ -9,20 +9,28 @@
 
     <description><![CDATA[
        A tool for expanding floating toolbar
-       <br> <br>
+       <br>
+        before using this plugin, you need to enable floating toolbar:
+        <br>
+        Advanced Settings ->  Hide floating toolbar for code editing (uncheck)
+
+       <br>
        <p>
           Features:
        <p>
        <ul>
-           <li>CamelCase </li>
+           <li>camelCase </li>
            <li>PascalCase </li>
-           <li>SnakeCase </li>
-           <li>SnakePascalCase (Pascal_Case) </li>
-           <li>SnakeUpperCase(UPPER_CASE) </li>
-           <li>UpperCase </li>
-           <li>LowerCase </li>
+           <li>snake_case </li>
+           <li>Snake_Pascal_Case</li>
+           <li>SNAKE_UPPER_CASE </li>
+           <li>UPPERCASE </li>
+           <li>lowercase </li>
        </ul>
       TODO
+
+
+
 
     ]]></description>
 
@@ -56,4 +64,9 @@
         </group>
     </actions>
 
+    <change-notes>
+        0.0.2: optimization
+
+
+    </change-notes>
 </idea-plugin>

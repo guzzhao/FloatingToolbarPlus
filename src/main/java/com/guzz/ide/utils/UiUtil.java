@@ -57,10 +57,10 @@ public class UiUtil {
                     int end = selectionModel.getSelectionEnd();
                     String prefix ="";
                     String suffix ="";
-                    if(editor.getDocument().getText().charAt(start-1)!= ' '){
+                    if(selectedText.startsWith(" ")){
                         prefix = " ";
                     }
-                    if(editor.getDocument().getText().charAt(end)!= ' '){
+                    if(selectedText.endsWith(" ")){
                         suffix = " ";
                     }
 
